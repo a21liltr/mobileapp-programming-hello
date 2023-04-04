@@ -13,14 +13,6 @@ public class MainActivity extends AppCompatActivity {
     TextView viewCount;
     ToastClickListener listener;
 
-    public void showExternalWebPage() {
-        //code.
-    }
-
-    public void showInternalWebPage() {
-        //code.
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
