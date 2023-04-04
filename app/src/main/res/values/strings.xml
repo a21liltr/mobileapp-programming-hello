@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Some text</string>
     <string name="text_click">Try clicking the button:</string>
-    <string name="button_cute">Click me!</string>
+    <string name="button_sweet">Click me!</string>
 </resources>

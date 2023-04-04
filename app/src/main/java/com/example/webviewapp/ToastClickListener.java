@@ -17,14 +17,14 @@ public class ToastClickListener implements View.OnClickListener {
     public void onClick(View v) {
 
         Context context = v.getContext();
-        CharSequence text = "You look cute!";
+        CharSequence text = "You look sweet!";
         int duration = Toast.LENGTH_LONG;
 
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
 
         count++;
-        this.textView.setText("You are " + String.valueOf(count) + " x cuter than chocolate!");
+        this.textView.setText("You are " + String.valueOf(count) + " x sweeter than chocolate!");
 
         System.out.println("Click!");
     }
